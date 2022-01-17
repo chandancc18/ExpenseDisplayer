@@ -1,12 +1,12 @@
 import React from "react";
 import ExpenseItem from "./ExpenseItems";
-import "./ExpenseList.css";
+import "../Expenses/css/ExpenseList.css";
 
 function ExpenseList(props) {
   if (props.listItem.length === 0) {
     return (
       <h2 className="expenses-list__fallback">
-        You saved Money, this month! No expenses Found!!
+        You saved Money, this year! No expenses Found!!
       </h2>
     );
   }
